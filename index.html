@@ -3,16 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
-</head>
+    <!-- 1. Below this comment input the BootStrap 4 CSS CDN from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 <body>
-    <button type="button" class="btn btn-primary">Click Me!</button>
+  <div class="container">
+    <div class="row">
+        <div class="col-4"><button type="button" class="btn btn-primary width-auto m-2">Kaija!</button> </div>
+        <div class="col-4"><button type="button" class="btn btn-secondary width-auto m-2">Likes!</button> </div>
+        <div class="col-4"><button type="button" class="btn btn-success width-auto m-2">Chicken!</button> </div>
+        <div class="col-4"><button type="button" class="btn btn-danger width-auto m-2">Nuggets!</button> </div>
+        <div class="col-4"><button type="button" class="btn btn-warning width-auto m-2">Sushi!</button> </div>
+        <div class="col-4"><button type="button" class="btn btn-info width-auto m-2">Pizza!</button> </div>
+        <div class="col-4"><button type="button" class="btn btn-light width-auto m-2">Tacos!</button> </div>
+        <div class="col-4"><button type="button" class="btn btn-dark width-auto m-2">Chocolate!</button> </div>
+        <div class="col-4"><button type="button" class="btn btn-link width-auto m-2">And Money!</button> </div>
+
+    </div>
+</div>
+    <!-- 2. place a div with the class container in  your body -->
+    <!-- More info on containers at: https://getbootstrap.com/docs/4.1/layout/overview/ -->
 
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- 3. inside your container div place a div with the class row -->
+    <!-- More info on the grid system at: https://getbootstrap.com/docs/4.1/layout/grid/ -->
+
+    <!-- 4. inside your row div place a primary, secondary, success, dnager, warning, info, light, dark, and Link button. In each button the text shoudl read "primary button", "Secondary Button", etc... -->
+    <!-- More info on Buttons at https://getbootstrap.com/docs/4.1/components/buttons/ -->
+
+    <!-- 5. Lets layout your buttons by making them into a 3x3 grid. Place each button in a div with the class of col-4. There are 12 columns in bootstrap so giving each button four columsn, will mean there are three buttons in each row. -->
+    <!-- More info on the grid system at: https://getbootstrap.com/docs/4.1/layout/grid/ -->
+
+    <!-- 6. Now we have a three by three grid of buttons, but they're too close together and look ugly! Use bootstrap classes to fix this by adding width-auto to all your buttons to auto-size the buttons, and then add m-2 to add a margin of two to each button. You will also need to add w-100 to the class of each button so that the third button does not wrap around to the next row. -->
+    <!-- more info on https://getbootstrap.com/docs/4.1/utilities/spacing/ and https://getbootstrap.com/docs/4.1/utilities/sizing/ -->
+    
+    <!-- once you are done, uploaad your work to github and submit the link to your repository in your assignment. -->
+
+    <!-- one suggested "flourish" you could add, is a second set of buttons but within divs of a different column width, or with different values for w-100. -->
+
+ 
+
+    
+<!-- 2. Below this comment, but above the Body ending tag, input the Boostrap 4 Javascript CDN from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+
 </body>
 </html>
